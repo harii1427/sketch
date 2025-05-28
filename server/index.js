@@ -17,13 +17,20 @@ const rooms = new Map();
 
 // Word list
 const words = [
-  'apple', 'banana', 'car', 'dog', 'elephant', 'fish', 'guitar', 'house',
-  'island', 'jacket', 'kite', 'lamp', 'mountain', 'notebook', 'ocean',
-  'pizza', 'queen', 'robot', 'sun', 'tree', 'umbrella', 'violin', 'window',
-  'xylophone', 'yacht', 'zebra', 'airplane', 'beach', 'castle', 'dinosaur',
-  'earth', 'fire', 'giraffe', 'helicopter', 'ice cream', 'jungle', 'kangaroo',
-  'lighthouse', 'moon', 'ninja', 'octopus', 'penguin', 'rainbow', 'spaceship',
-  'tiger', 'unicorn', 'volcano', 'waterfall', 'fox', 'yogurt', 'zombie'
+  "apple", "banana", "car", "dog", "elephant", "fish", "guitar", "house",
+  "island", "jacket", "kite", "lamp", "mountain", "notebook", "ocean",
+  "pizza", "queen", "robot", "sun", "tree", "umbrella", "violin", "window",
+  "xylophone", "yacht", "zebra", "airplane", "beach", "castle", "dinosaur",
+  "earth", "fire", "giraffe", "helicopter", "ice cream", "jungle", "kangaroo",
+  "lighthouse", "moon", "ninja", "octopus", "penguin", "rainbow", "spaceship",
+  "tiger", "unicorn", "volcano", "waterfall", "fox", "yogurt", "zombie",
+  "astronaut", "ballet", "cactus", "dragon", "energy", "forest", "galaxy",
+  "honeybee", "island", "jigsaw", "kangaroo", "lizard", "meteor", "necklace",
+  "oyster", "pyramid", "quokka", "rocket", "satellite", "tornado", "utopia",
+  "vortex", "whale", "zeppelin", "avocado", "basketball", "campfire",
+  "diamond", "eclipse", "fireworks", "glacier", "hourglass", "iceberg",
+  "jukebox", "koala", "lantern", "meadow", "nightmare", "overture", "parrot",
+  "quest", "riddle", "starfish", "treasure", "underwater", "violet", "windmill"
 ];
 
 // Helper function to generate word hint (e.g., "apple" -> "_ _ _ _ _")
